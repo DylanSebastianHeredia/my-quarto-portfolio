@@ -1,0 +1,104 @@
+// lab8starter.c
+// Sebastian Heredia, dherdia@hmc.edu, 11/7/2024
+
+#include "EasyREDVIO_ThingPlus.h"
+
+int row[7] = {9, 18, 11, 12, 1, 10, 22}; // Top to Bottom
+int col[7] = {23, 13, 0, 20, 16, 21, 19}; // Left to Right
+
+int main(void){
+    volatile uint8_t debug;
+    volatile int16_t x, y, disx, disy;
+
+    spiInit(10, 1, 1); // Initialize SPI pins
+  
+    // Rows
+    pinMode(9, OUTPUT);
+    pinMode(18, OUTPUT);
+    pinMode(11, OUTPUT);
+    pinMode(12, OUTPUT);
+    pinMode(1, OUTPUT);
+    pinMode(10, OUTPUT);
+    pinMode(22, OUTPUT);
+
+    // Columns
+    pinMode(23, OUTPUT);
+    pinMode(13, OUTPUT);
+    pinMode(0, OUTPUT);
+    pinMode(20, OUTPUT);
+    pinMode(16, OUTPUT);
+    pinMode(21, OUTPUT);
+    pinMode(19, OUTPUT);
+
+    // Setup the LIS3DH
+    spiWrite(0x20, 0x77); // highest conversion rate, all axis on
+    spiWrite(0x23, 0x88); // block update, and high resolution
+
+    // Check WHO_AM_I register. should return 0x33    
+    debug = spiRead(0x0F);
+    
+    while(1) {
+        // Collect the X and Y values from the accelerometer
+  		x = spiRead(0x28) | (spiRead(0x29) << 8);
+		y = spiRead(0x2A) | (spiRead(0x2B) << 8);
+
+    // Initialize rows 
+    int r, c, i;
+      for (i = 0; i < 7; i++) {
+      
+
+        digitalWrite(row[i], 0);     // Turn off all LEDs initially
+        digitalWrite(col[i], 1);
+      }
+
+      // Rows (y) 
+      if (y > 4100)
+        r = 7;
+       
+      if (2700 < y & y < 4100)
+        r = 6;
+
+      if (1300 < y & y < 2700)
+        r = 5;
+    
+      if (-80 < y & y < 1300)
+        r = 4;
+
+      if (-1600 < y & y < -80)
+        r = 3;
+
+      if (-2700 < y & y < -1600)
+        r = 2;
+
+      if (-4100 < y & y < -2700)
+        r = 1;
+
+      // Columns (x)  
+      if (-3500 > x)
+        c = 7;
+       
+      if (-2100 > x & x > -3500)
+        c = 6;
+
+      if (-900 > x & x > -2100)
+        c = 5;
+    
+      if (625 > x & x > -900)
+        c = 4;
+
+      if (3100 > x & x > 625)
+        c = 3;
+
+      if (4100 > x & x > 3100)
+        c = 2;
+
+      if (5600 > x & x > 4100)
+        c = 1;
+
+     digitalWrite(row[r-1], 1);     
+     digitalWrite(col[c-1], 0);
+
+    delayLoop(100);
+  }
+}
+
