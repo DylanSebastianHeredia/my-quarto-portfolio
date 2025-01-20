@@ -1,0 +1,19 @@
+project:
+  type: website # Indicates website format
+  output-dir: docs
+
+website:
+  title: "D. Sebastian Heredia" # Sets side-wide title
+  navbar: # Indicates navigation bar
+    left: 
+      - href: projects.qmd
+        text: Engineering Class Projects
+      - href: activities.qmd
+        text: Art & Outdoors
+        
+format:
+  html:
+    theme: flatly # Applies built-in "jolla" style across site
+    css: styles.css # Adds custom style/theme sheets acrros site
+    toc: true # toc = Table of Contents
+
