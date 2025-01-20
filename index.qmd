@@ -1,0 +1,45 @@
+---
+title: "D. Sebastian Heredia"
+image: "images/profile_picture.png"
+about:
+    template: jolla
+---
+
+## Welcome To My Online Portfolio!
+
+Hello! My name is Sebastian (He/Him) and I’m a Sophomore Engineering 
+major at [Harvey Mudd College](https://www.hmc.edu) in Claremont, CA. I am passionate about electronics 
+and manufacturing, and hope to leverage these fields to make a positive impact on 
+the world. To make my goals a reality, I seek hands-on, professional experience in 
+technical engineering projects. 
+
+As an engineer, machinist, and tutor I’ve gained technical skills in CAD and computer 
+programming, design and manufacturing, and teaching that I’m excited to apply to helping 
+communities all over. I love challenging myself to not only learn, but master new skills. 
+I hope to combine skills in new and unique ways to make novel creations that help people. 
+Check out my resume and additional links below! 
+
+## Resume 2024-2025
+
+<iframe src="documents/portfolio_cv_noGPA.pdf" width="100%" height="600px" style="border:none;"></iframe>
+
+## Additional Links
+
+::: {.flex-container style="display: flex; gap: 20px; align-items: center;"}
+<a href="https://www.linkedin.com/in/sebastian-heredia4/" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width:40px; height:40px;">
+</a>
+
+<a href="https://portal.hmc.edu/ICS/icsfs/Judging-Performance-Letter-with-First-Semester-Gra.pdf?target=78e26f4d-1e94-4370-94de-0e9cc083a0e5" target="_blank">
+    <button style="padding: 10px 20px; background-color: rgb(71, 71, 62); color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Judging Performance
+    </button>  
+</a>
+
+<a href="https://portal.hmc.edu/ICS/icsfs/HMC_Transcript_Key_Updated_August_2022.pdf?target=38ec4207-346b-4c1e-9b6f-368eef24265c" target="_blank">
+    <button style="padding: 10px 20px; background-color: rgb(164, 159, 19); color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Transcript Key
+    </button>  
+</a>
+:::
+

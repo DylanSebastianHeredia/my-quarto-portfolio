@@ -1,0 +1,39 @@
+/* css styles */
+body {
+    text-align: left;
+  }
+  
+  h1, h2, h3, p {
+    text-align: left;
+  }
+  
+
+  .breadcrumbs {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+  }
+  
+  .breadcrumbs a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs span {
+    color: #6c757d;
+  }
+  
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+  }

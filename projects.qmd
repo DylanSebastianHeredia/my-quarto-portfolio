@@ -1,0 +1,571 @@
+---
+title: "Engineering Class Projects"
+toc: true
+format: html
+---
+## Welcome to my Engineering Class Projects page!
+
+During the semester, I love working on hands-on projects to develop new
+and useful skills to broaden my problem solving toolbox. I believe projects and experiments are 
+the best way to learn for yourself what works and what doesn't, and adjust as needed to keep
+moving foward. My projects bring me great satisfaction and I love putting in the time and effort
+to bringing my ideas to life. If they work, wonderful! And if they don't turn out as expected, 
+I take what I learn and quickly and efficiently tweak my methods until I reach my desired outcome. 
+Check out some of the projects I've worked on at Mudd so far!
+
+## E4: Design & Manufacturing ##
+
+### Machinist Hammer ###
+
+<script>
+  function toggleContent() {
+    var content = document.getElementById("moreContent");
+    var button = document.getElementById("toggleButton");
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      button.innerHTML = "Show Less";  // Change button text to "Show Less"
+    } else {
+      content.style.display = "none";
+      button.innerHTML = "Show More";  // Change button text to "Show More"
+    }
+  }
+</script>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 2; width: 300px;">
+<img src="images/hammer/Hammer_Full.png" alt="Hammer" style="width:100%; border-radius: 15px;">
+</div>
+  <div style="flex: 2; min-width: 300px;">
+<p> 
+    Over the course of 6-weeks, I gained proficiency in basic machining techniques, 
+    joined the long hammer-building history of Harvey Mudd College engineers, and 
+    discovered a deeper appreciation for machining that led me to working as a shop 
+    proctor at the [Harvey Mudd Machine Shop](https://www.hmc.edu/engineering/current-student-information/engineering-machine-shop/). 
+    The student Machine Shop is a fundamental resource to many student projects and experiences across the Claremont Colleges.
+</p>
+</div>
+</div>
+</p>
+<p>
+
+<div>
+<button id="toggleButton" onclick="toggleContent()">Show More</button>
+<div id="moreContent" style="display:none;">
+<div class="row">
+<div class="column">
+<p> ### What? ###
+</p>
+<p> 
+
+<img src="images/hammer/Hammer_Labeled.png" alt="Hammer" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- All Harvey Mudd students in E4 manufacture identical machinist hammers by following specific 
+__process routers__ and tolerances listed in __tech drawings__. 
+
+- Crafted a machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon. 
+
+</p>
+</div>
+<div class="column">
+<p> ### How? ###
+</p>
+<p> 
+
+<img src="images/hammer/hammer_oven.png" alt="Hammer" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Machined head stock to length and specification using __lathe__ and __milling operations__. 
+
+- Heat treated hardface and determined __HRC Hardness__.
+
+- __Lasercut__ hammer stand and shaped handle using the __bandsaw__ and spindle sander. 
+
+
+</p>
+</div>
+<div class="column">
+<p> ### Results ###
+</p>
+<p> 
+
+<img src="images/hammer/hammer_selfie.png" alt="Hammer" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Created a functional hammer with __heat treated__ hard face, well fastened soft face, and smooth 
+handle finish. 
+
+- Hammer is durable and approved as high quality of manufacturing. 
+
+- Inspired to become a machine __shop proctor__ and train new users. 
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<div style="padding: 10px;">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+### Optimization of Neuroimaging Apparatus ###
+
+<script>
+  function toggleContenta() {
+    var content = document.getElementById("moreContenta");
+    var button = document.getElementById("toggleButtona");
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      button.innerHTML = "Show Less";  // Change button text to "Show Less"
+    } else {
+      content.style.display = "none";
+      button.innerHTML = "Show More";  // Change button text to "Show More"
+    }
+  }
+</script>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 2; width: 300px;">
+<img src="images/fNIRS/headcap_cover.png" alt="fNIRS" style="width:100%; border-radius: 15px;">
+</div>
+  <div style="flex: 2; min-width: 300px;">
+<p> 
+  Dr. Burns at Pomona College uses functional Near-Infrared Spectroscopy (fNIRS) to monitor brain 
+  activity by measuring how infrared light (IR) interacts with oxygenated hemoglobin (HbO) in the brain. 
+  A significant challenge arises when using fNIRS with individuals who have thick or darker hair, 
+  as the hair can block the IR light from properly reaching the scalp. With my team—Annette Chang, 
+  [Brock Bownds](https://www.linkedin.com/in/brockbownds/), and [Gabrielle Reynolds](https://www.linkedin.com/in/gabbyreynolds/), we 
+  sought to develop methods to effectively direct IR light from fNIRS devices to the scalp.
+</p>
+</div>
+</div>
+</p>
+<p>
+
+<div>
+<button id="toggleButtona" onclick="toggleContenta()">Show More</button>
+<div id="moreContenta" style="display:none;">
+<div class="row">
+<div class="column">
+<p> ### What? ###
+</p>
+<p> 
+
+<img src="images/fNIRS/design_solutions.png" alt="fNIRS" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Developed and selected three design alternatives:
+
+1. __Fiber Optic Attachment__ with __Custom Spring Cap__ threads IR light through thick hair to the scalp. 
+
+2. __Hair Moving Pick__ moves hair away from covering the scalp.
+
+3. __Wider Mounting Base__ enables more pressure between the scalp and optodes. 
+
+</p>
+</div>
+<div class="column">
+<p> ### How? ###
+</p>
+<p> 
+
+<img src="images/fNIRS/optodes.png" alt="fNIRS" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- __Machined__ prototypes to verify proof of concept and refined iterations based on client input and 
+professor feedback. 
+
+- Developed comprehen- sive __process routers__ for all prototype designs and documented findings into 
+reports to be shared with the team and the client. 
+
+- Fostered a welcoming and collaborative environment for all team members. 
+
+</p>
+</div>
+<div class="column">
+<p> ### Results ###
+</p>
+<p> 
+
+<img src="images/fNIRS/fNIRS_results.png" alt="fNIRS" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Improved signal clarity of fNIR device for users with dense hair types (3C, 4A), improving readings from critical to acceptable. 
+
+- Gained experience arranging and executing client meetings to determine project __objectives__, 
+__constraint__, __functions__, and __means__. 
+
+- Applied principles of __engineering design__ and __team dynamics__ to a real-world project.
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<div style="padding: 10px;">
+</div>
+
+
+
+
+
+
+
+
+
+
+## E79: Engineering Systems ##
+
+### Underwater Remotely Operated Vehicle (ROV) ###
+
+<script>
+  function toggleContent3() {
+    var content = document.getElementById("moreContent3");
+    var button = document.getElementById("toggleButton3");
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      button.innerHTML = "Show Less";  // Change button text to "Show Less"
+    } else {
+      content.style.display = "none";
+      button.innerHTML = "Show More";  // Change button text to "Show More"
+    }
+  }
+</script>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 2; width: 300px;">
+<img src="images/rov/rov_cover.png" alt="ROV" style="width:100%; border-radius: 15px;">
+</div>
+  <div style="flex: 2; min-width: 300px;">
+<p> 
+  I worked with my lab partner, [Brock Bownds](https://www.linkedin.com/in/brockbownds/),
+  to build an underwater remotely operated vehicle (ROV) to gather depth and temperature 
+  data of designated 3D location in [Phake Lake](http://bfs.claremont.edu/) neighboring
+  the Harvey Mudd College campus.
+</p>
+</div>
+</div>
+</p>
+<p>
+
+<div>
+<button id="toggleButton3" onclick="toggleContent3()">Show More</button>
+<div id="moreContent3" style="display:none;">
+<div class="row">
+<div class="column">
+<p> ### What? ###
+</p>
+<p> 
+
+<img src="images/rov/rov_tank.png" alt="ROV" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Created an ROV with an umbillical cord to measure depth and temperature data 
+at [Phake Lake](http://bfs.claremont.edu/) located across Foothill Blvd.
+
+- The ROV is fully water- proof and its motor is controlled using a P control system that we
+modeled with __block diagrams__.
+
+</p>
+</div>
+<div class="column">
+<p> ### How? ###
+</p>
+<p> 
+
+<img src="images/rov/rov_labview.png" alt="ROV" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Modeled and simulated vertical motion of the ROV using __LabView__ and generated __Bode Plots__ 
+to characterize second order transient response.
+
+- Built, tested, and manufactured a circuit that can convert tempertures to voltages using a 
+[10kΩ thermistor](https://drive.google.com/file/d/1leiB2mRnPxhZ7hLnxq3vnmnNOU1aAgqp/view).
+
+</p>
+</div>
+<div class="column">
+<p> ### Results ###
+</p>
+<p> 
+
+<img src="images/rov/rov_soldering.png" alt="ROV" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Gained hands-on skills __breadboarding__ circuits and __soldering__ compo- nents
+onto __PCBs__ to create functional sensors.
+
+- Proficiency with __oscilloscope__ equipment.
+
+- Deployment spot stats : Depth (m): [0, 1.32], <br> 
+Temp (ºC): [-3.80, 19.18].
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<div style="padding: 10px;">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## E85: Digital Electronics & Computer Architecture (RISC-V)
+### 2D-Digital Level
+<script>
+  function toggleContent2() {
+    var content = document.getElementById("moreContent2");
+    var button = document.getElementById("toggleButton2");
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      button.innerHTML = "Show Less";  // Change button text to "Show Less"
+    } else {
+      content.style.display = "none";
+      button.innerHTML = "Show More";  // Change button text to "Show More"
+    }
+  }
+</script>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 2; width: 300px;">
+<img src="images/digital_level/digital_cover.png" alt="Level" style="width:100%; border-radius: 15px;">
+</div>
+  <div style="flex: 2; min-width: 300px;">
+<p> 
+  Combining an accelerometer and a 7x7 LED array with technical skills in 
+  soldering, breadboaring, and C Code, I created a 2D-digital level to 
+  determine whether my dorm desk was level. For this project, I used a [SparkFun 
+  RED-V ThingPlus](images/digital_level/redvthingpluspins.PNG) board. 
+  <br><br>
+  Click [Digital Demo](images/digital_level/level.mp4) to view a video demo of 
+  the level on my desk. 
+
+</p>
+</div>
+</div>
+</p>
+<p>
+
+<div>
+<button id="toggleButton2" onclick="toggleContent2()">Show More</button>
+<div id="moreContent2" style="display:none;">
+<div class="row">
+<div class="column">
+<p> ### What? ###
+</p>
+<p> 
+
+<img src="images/digital_level/level_portrait.png" alt="Level" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- The LED matrix displays a red "bubble" indicating the orientation of the __accelerometer__ in the x and 
+y axes. 
+
+-  When the accelerometer is level, the bubble lies at the center of the 7x7 LED matrix display. 
+
+- The bubble stops at the edge of the matrix if the tilt of the breadboard is too large. 
+
+</p>
+</div>
+<div class="column">
+<p> ### How? ###
+</p>
+<p> 
+
+<img src="images/digital_level/level_soldering1.png" alt="Level" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Interpreted LED __data sheet__ to determine current limiting resistor values as well as pinout configuration. 
+
+- __Soldered__ accelerometer and created a __circuit schematic__ to streamline __C Code__. 
+
+- Calibrated accelerometer by tilting in 5º intevals along axes and recording output readings. 
+
+</p>
+</div>
+<div class="column">
+<p> ### Results ###
+</p>
+<p> 
+
+
+<img src="images/digital_level/level_image.jpg" alt="Level" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Click [Digital Demo](images/digital_level/level.mp4) to view a video demo of 
+the level on my desk. 
+
+- Wrote embedded software using [C Code](documents/Lab8_DSH_FINAL.txt) to control __external peripherals__. 
+
+- Designed an accurate and sensitive 2D-digital level.
+
+- Determined that my dorm desk is level!
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<div style="padding: 10px;">
+</div>
+
+
+
+
+
+
+
+### 32-Bit Multicycle Processor (RISC-V)
+<script>
+  function toggleContent5() {
+    var content = document.getElementById("moreContent5");
+    var button = document.getElementById("toggleButton5");
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      button.innerHTML = "Show Less";  // Change button text to "Show Less"
+    } else {
+      content.style.display = "none";
+      button.innerHTML = "Show More";  // Change button text to "Show More"
+    }
+  }
+</script>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 2; width: 300px;">
+<img src="images/multicycle/multicycle_cover_image.jpg" alt="Multicycle" style="width:100%; border-radius: 15px;">
+</div>
+  <div style="flex: 2; min-width: 300px;">
+<p> 
+  My culminating project for E85 was to build, simulate, and debug a multicycle RISC-V processor in SystemVerilog. 
+  This project built upon the ALU Decoder and Single-cycle processor we designed in previous labs. 
+  <br><br>
+  To view a larger version of the images for this project as well as my code, click [Multicycle Code](images/multicycle/Multicycle_Code.pdf). 
+</p>
+</div>
+</div>
+</p>
+<p>
+
+<div>
+<button id="toggleButton5" onclick="toggleContent5()">Show More</button>
+<div id="moreContent5" style="display:none;">
+<div class="row">  
+<div class="column">
+<p> ### What? ###
+</p>
+<p> 
+
+<img src="images/multicycle/schematic_top.jpg" alt="Multicycle" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Created a 32-bit multicycle computer processor that can compute arithmetic operations,
+manage memory, and execute instructions in real-time. 
+
+- Click [Multicycle Code](images/multicycle/Multicycle_Code.pdf) to view my code starting on page 2.  
+
+</p>
+</div>
+<div class="column">
+<p> ### How? ###
+</p>
+<p> 
+
+<img src="images/multicycle/instantiation.jpg" alt="Multicycle" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- Wrote a datapath in __SystemVerilog__ to connect controller, memory, and register file components.
+
+- Systematically __debugged__ my code by comparing __assembly__ and __machine language__ test benches against waveforms, 
+identifying error origins.
+
+- Consulted Quartus RLT schematic to ensure accurate I/O ports.
+
+</p>
+</div>
+<div class="column">
+<p> ### Results ###
+</p>
+<p> 
+
+<img src="images/multicycle/waveforms.jpg" alt="Multicycle" style="width:100%; border-radius: 15px;">
+
+<div style="padding: 5px;">
+</div>
+
+- 32-Bit RISC-V Multicycle processor matched waveform expectations, indicating that the corret values where
+written to the correct address. 
+
+- Adapted Single-cycle processor building blocks such as muxes, registers, and adders for Multicycle processor use. 
+
+- Deep understanding of function instantiation and module hierarchy for SystemVerilog.
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<div style="padding: 10px;">
+</div>

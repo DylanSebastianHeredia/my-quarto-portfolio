@@ -1,0 +1,237 @@
+---
+title: "Art & Outdoors"
+toc: true
+format: html
+---
+## Music ##
+
+I've played the viola for 10 years and music has contributed to so many of my 
+most favorite experiences and memories. Through various fundraiser performances, 
+seasonal concerts, weddings, and tours, I've met incredible people and life-long
+friends. 
+
+<div class="row">
+<div class="column">
+
+<p>
+  <img src="images/symphony_ny.png" alt="Symphony NY" style="width:100%; border-radius: 15px;">
+</p>
+
+</div>
+<div class="column">
+
+<p>
+<img src="images/carnegie_dressroom.png" alt="Carnegie Dressroom" style="width:100%; border-radius: 15px;">
+</p>
+
+</div>
+</div>
+
+Santa Monica High School 2022 Symphony Orchestra tour to NYC, performing at Carnegie Hall. 
+
+<div class="row">
+<div class="column">
+  <video controls style="width:100%; max-width:800px; border-radius:15px;">
+    <source src="images/practice_clip.mp4" type="video/mp4">
+  </video>
+
+<p>
+  Above is a practice clip of *Festive Overture, Op. 96* by Dmitri Shostakovich. To the
+  right, find a video of where this practiced passage is featured in the performance. 
+</p>
+
+</div>
+<div class="column">
+
+  <video controls style="width:100%; max-width:800px; border-radius:15px;">
+    <source src="images/festive_overture.mp4" type="video/mp4">
+  </video>
+
+<p>
+  Antonín Dvořák <br>
+  *Serenade in E major, Op. 22, III. Scherzo: Vivace* <br><br>
+  Mar. 24, 2022 | Barnum Hall | Santa Monica, CA <br><br>
+  Click [Festive Overture](https://www.youtube.com/watch?v=A8r7CQNidUc) to watch 
+  the entire performance.
+</p>
+
+</div>
+</div>
+
+
+
+
+
+__2022 All-State High School Symphony Orchestra__
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 15px;">
+<div style="flex: 2; width: 300px;">
+<a href="https://www.youtube.com/watch?v=IHsU_v2hrqA" target="_blank">
+    <img src="https://img.youtube.com/vi/IHsU_v2hrqA/maxresdefault.jpg" alt="Watch Video" style="width:100%; max-width:400px; border-radius: 15px;">
+</a>
+
+</div>
+
+
+<div style="flex: 2; min-width: 300px;">
+<p> 
+    Nikolai Rimsky-Korsakov <br>
+    *Scheherazade, Op. 35, IV. Allegro Molto* <br><br>
+    Feb. 19, 2022 | Saroyan Theater | Fresno, CA <br>
+    Click [Scheherazade 2022](https://www.youtube.com/watch?v=IHsU_v2hrqA) to watch our performance. <br><br>
+    Recipient of Tuition Scholarship to Sequoia Chamber Music Festival Summer 2022
+</p>
+</div>
+</div>
+</p>
+
+
+
+
+### GarageBand Compositions ###
+
+I've recorded myself making music since I was 9-years old. Through 
+apps like Voice Memos, SoundTrap, and GarageBand, I learned to
+layer multiple parts to create my own ensemble inside my room. 
+Below are two of my first projects from high school. 
+
+<div class="row">
+<div class="column">
+
+  <video controls style="width:100%; max-width:800px; border-radius:15px;">
+    <source src="images/batman.mp4" type="video/mp4">
+  </video>
+
+<p>
+  *Untitled*, 2021 
+  <br><br>
+  I really liked the opening theme to "Pressure" by Billy Joel and wondered
+  what it would sound like if it were remixed. In this project, I was aiming
+  for an ominous and dark tone, and I had a lot of fun layering parts!
+</p>
+
+</div>
+<div class="column">
+
+  <video controls style="width:100%; max-width:800px; border-radius:15px;">
+    <source src="images/duet.mp4" type="video/mp4">
+  </video>
+
+<p>
+  *Improvised Duet*, 2021 
+  <br><br>
+  Here, I chose the key of D minor and improvised a duet that I 
+  played on my viola. Each part was recorded in one take. I love how 
+  this piece captures a sense of reflection and optimism towards the end.  
+</p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+### Jam Sessions ###
+
+<div class="row">
+<div class="column">
+
+<p>
+  Today, you'll find me jamming with my friends Kai Mawhinney on keys
+  and Emmett Levine on voice and guitar. We've performed on the 
+  Claremont College student radio, [KSPC](https://kspc.org/), several times
+  and are incredibly thankful to them for hosting us. Click the icon to the 
+  right to learn more about KSPC. 
+</p>
+
+</div>
+<div class="column">
+
+<a href="https://kspc.org/" target="_blank">
+  <img src="images/KSPC.png" alt="KSPC" style="width:50%; max-width:400px; border-radius: 15px;">
+</a>
+
+</div>
+</div>
+
+
+
+
+
+## Outdoors ##
+
+### Ultimate Frisbee ###
+
+<div class="row">
+<div class="column">
+
+<p>
+  The [Claremont Braineaters](https://linktr.ee/brainsult) are a group of frisbee enthusiasts from all over the Claremont Colleges. 
+  We are an inclusive, gender expansive team and hold trainings three times a week for 2-hours to practice gameplay, strategy, 
+  and have a good time. Last season, we represented the South West region at the Men's Division-III Nationals 2024 in Milwaukee, 
+  earning the Team Spirit Award for outstanding knownledge of the game and sportsmanship. I've made countless memories with the 
+  team both on and off field, and I'm excited to see where we go this season.
+</p>
+
+</div>
+<div class="column">
+
+<p>
+  <img src="images/spirit_award.png" alt="Spirit Award" style="width:80%; border-radius: 15px;">
+</p>
+
+</div>
+</div>
+
+<img src="images/braineaters_nationals.png" alt="Team Picture" style="width:100%; border-radius: 15px;">
+<div style="padding: 15px;">
+
+Team photo of the Braineaters at USA Ultimate Division-III Mens Nationals 2024.
+
+</div>
+
+
+
+
+
+
+
+
+
+## Additional Interests & Hobbies
+In addition to music and frisbee, I also enjoy sketching, running, and woodworking. This winter break, 
+I'm working on running 100 miles!
+
+<div class="row">
+<div class="column">
+
+<p> 
+  <img src="images/Art.png" alt="Woman" style="width:100%; border-radius: 15px;">
+  <div> </div>
+  *Untitled*, 2023 <br>
+  Pencil on paper 
+</p>
+
+</div>
+<div class="column">
+
+<p> 
+  <img src="images/Strava.png" alt="Strava" style="width:100%; border-radius: 15px;">
+  <div> </div>
+  Winter Break Run, 2024 <br>
+</p>
+
+</div>
+<div class="column">
+
+<p> 
+  <img src="images/Woodworking.png" alt="Woodworking" style="width:100%; border-radius: 15px;">
+  <div> </div>
+  Woodworking Gifts, 2024
+</p>
+
+</div>
+</div>
